@@ -1,0 +1,44 @@
+* {
+ margin: auto;
+ padding: auto;
+}
+
+.background {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ background-color: aqua;
+ width: 60vh;
+ border: 2px solid red;
+ border-radius: 22px;
+ 
+}
+
+.head {
+ margin: 10px 0px;
+}
+
+.input {}
+
+.input input {
+ padding: 10px 11px;
+ margin: 11px 0px;
+ background: black;
+ color: white;
+ font-size: 14px;
+}
+
+.button {
+ margin: 3px 2px;
+ padding: 10px 13px;
+ border: 1px solid red;
+ border-radius: 12px;
+ cursor: pointer;
+}
+
+.button:hover {
+ background-color: black;
+ color: white;
+ border-color: rgb(179, 185, 245);
+}
